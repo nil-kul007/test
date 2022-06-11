@@ -8,6 +8,7 @@ const Input = (props) => {
         className={`input ${props.class}`}
         placeholder={props.placeholder}
         value={props.value}
+        onChange={props.onChange}
       />
     </>
   );
